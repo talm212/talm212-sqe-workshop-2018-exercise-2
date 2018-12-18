@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        table {
+            width: 100%;
+            height: 100%;
+        }
+        .textAreaWrapper {
+            width: 100%;
+            height: 80vh;
+        }
+        textarea {
+            width: 80%;
+            height: 95%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <div>
+                <label>Origin code</label>
+            </div>
+        </td>
+        <td>
+            <div>
+                <label>After Substitution Parsed code</label>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="textAreaWrapper">
+                <textarea id="codeInput">
+                </textarea>
+            </div>
+        </td>
+        <td>
+            <div id="result">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <textarea id="argsInput"></textarea>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <button id="codeSubmissionButton">Substitution code</button>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
